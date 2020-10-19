@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
 
         navController = findNavController(R.id.nav_host_fragment)
-        binding.fab.setOnClickListener { navController.navigate(R.id.action_remindersFragment_to_addReminderFragment)
+        binding.fab.setOnClickListener {
+            navController.navigate(R.id.action_remindersFragment_to_addReminderFragment)
         }
 
         fabToggler()
@@ -42,14 +43,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun fabToggler(){
-        navController.addOnDestinationChangedListener{_,
-            destination, _ ->
-                if(destination.id in arrayOf(R.id.addReminderFragment)){
-                    binding.fab.hide()
-                } else {
-                    binding.fab.show()
-                }
+    private fun fabToggler() {
+        navController.addOnDestinationChangedListener { _,
+                                                        destination, _ ->
+            if (destination.id in arrayOf(R.id.addReminderFragment)) {
+                binding.fab.hide()
+            } else {
+                binding.fab.show()
+            }
         }
     }
 }
