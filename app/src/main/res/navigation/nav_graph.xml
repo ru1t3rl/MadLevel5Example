@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/remindersFragment"
-        android:name="tech.tucano.madlevel4example.RemindersFragment"
+        android:name="tech.tucano.madlevel5example.RemindersFragment"
         android:label="fragment_reminders"
         tools:layout="@layout/fragment_reminders" >
         <action
@@ -16,6 +16,6 @@
     </fragment>
     <fragment
         android:id="@+id/addReminderFragment"
-        android:name="tech.tucano.madlevel4example.AddReminderFragment"
+        android:name="tech.tucano.madlevel5example.AddReminderFragment"
         android:label="AddReminderFragment" />
 </navigation>

@@ -1,10 +1,10 @@
-package tech.tucano.madlevel4example
+package tech.tucano.madlevel5example
 
 import android.view.LayoutInflater
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.view.ViewGroup
-import tech.tucano.madlevel4example.databinding.ItemReminderBinding
+import tech.tucano.madlevel5example.databinding.ItemReminderBinding
 
 class ReminderAdapter(private val reminders: List<Reminder>) :
     RecyclerView.Adapter<ReminderAdapter.ViewHolder>(){

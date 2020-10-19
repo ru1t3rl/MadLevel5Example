@@ -1,4 +1,4 @@
-package tech.tucano.madlevel4example
+package tech.tucano.madlevel5example
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package tech.tucano.madlevel4example
+package tech.tucano.madlevel5example
 
 import android.content.Context
 import androidx.room.*

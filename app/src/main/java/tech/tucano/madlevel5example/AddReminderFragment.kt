@@ -1,4 +1,4 @@
-package tech.tucano.madlevel4example
+package tech.tucano.madlevel5example
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.core.os.bundleOf
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
-import tech.tucano.madlevel4example.databinding.ActivityMainBinding
-import tech.tucano.madlevel4example.databinding.FragmentAddReminderBinding
+import tech.tucano.madlevel5example.databinding.ActivityMainBinding
+import tech.tucano.madlevel5example.databinding.FragmentAddReminderBinding
 
 
 const val REQ_REMINDER_KEY = "req_reminder"

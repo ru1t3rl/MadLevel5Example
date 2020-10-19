@@ -1,7 +1,6 @@
-package tech.tucano.madlevel4example
+package tech.tucano.madlevel5example
 
 import android.content.Context
-import android.provider.CalendarContract
 
 class ReminderRepository(context: Context) {
     private var reminderDao: ReminderDao

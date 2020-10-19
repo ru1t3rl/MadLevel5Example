@@ -1,4 +1,4 @@
-package tech.tucano.madlevel4example
+package tech.tucano.madlevel5example
 
 import android.os.Bundle
 import android.util.Log
@@ -16,7 +16,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import tech.tucano.madlevel4example.databinding.FragmentRemindersBinding
+import tech.tucano.madlevel5example.databinding.FragmentRemindersBinding
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.

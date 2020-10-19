@@ -1,4 +1,4 @@
-package tech.tucano.madlevel4example
+package tech.tucano.madlevel5example
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
-import tech.tucano.madlevel4example.databinding.ActivityMainBinding
+import tech.tucano.madlevel5example.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
